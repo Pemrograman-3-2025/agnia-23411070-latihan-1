@@ -1,0 +1,57 @@
+.tombol-kembali {
+    border: 1px solid blue;
+    color: black;
+    background-color: aquamarine;
+/*                 atas kanan bawah kiri*/
+    border-radius: 8px  8px   8px   8px;
+/*  border-radius: 8px  8px; */
+/*                 atas bawah */
+/*          atas kanan bawah kiri*/
+/*margin: 2px  4px   2px   4px; */
+/*  margin: 2px  2px; */
+/*          atas bawah */
+    margin-bottom: 6px;
+    padding: 4px 15px;
+}
+.tombol-input {
+    border: 1px solid blue;
+    color: black;
+    background-color: aquamarine;
+    border-radius: 8px  8px   8px   8px;
+    margin-bottom: 6px;
+    padding: 4px 15px;
+}
+/*tombol berubah ketika didekatkan */
+.tombol-input:hover {
+    background-color: rgb(101, 143, 129);
+}
+.my-table {
+    color: rgb(115, 139, 191);
+    border-collapse: collapse;
+}
+.my-table th,td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+tr:hover {
+    background-color: #eae6e6;
+}
+.buttonedit {
+    border: 1px solid rgb(96, 96, 0);
+    color: black;
+    background-color: yellow;
+    border-radius: 8px  8px   8px   8px;
+    margin-bottom: 6px;
+    padding: 4px 15px;
+}
+.buttondelete {
+    border: 1px solid rgb(104, 38, 38);
+    color: black;
+    background-color: red;
+    border-radius: 8px  8px   8px   8px;
+    margin-bottom: 6px;
+    padding: 4px 15px;
+}
+.buttondelete:hover {
+    background-color: rgb(104, 38, 38);
