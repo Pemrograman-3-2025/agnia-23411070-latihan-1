@@ -1,9 +1,9 @@
 .tombol-kembali {
-    border: 1px solid blue;
+    border: 1px solid rgb(255, 84, 112);
     color: black;
-    background-color: aquamarine;
+    background-color: pink;
 /*                 atas kanan bawah kiri*/
-    border-radius: 8px  8px   8px   8px;
+    border-radius: 10px  10px;
 /*  border-radius: 8px  8px; */
 /*                 atas bawah */
 /*          atas kanan bawah kiri*/
@@ -11,25 +11,25 @@
 /*  margin: 2px  2px; */
 /*          atas bawah */
     margin-bottom: 6px;
-    padding: 4px 15px;
+    padding: 8px 15px;
 }
 .tombol-kembali:hover {
-    background-color: rgb(101, 143, 129);
+    background-color: rgb(255, 84, 112);
 }
 .tombol-input {
-    border: 1px solid blue;
+    border: 1px solid rgb(255, 84, 112);
     color: black;
-    background-color: aquamarine;
-    border-radius: 8px  8px   8px   8px;
+    background-color: pink;
+    border-radius: 10px 10px;
     margin-bottom: 6px;
-    padding: 4px 15px;
+    padding: 8px 15px;
 }
 /*tombol berubah ketika didekatkan */
 .tombol-input:hover {
-    background-color: rgb(101, 143, 129);
+    background-color: rgb(255, 84, 112);
 }
 .my-table {
-    color: rgb(115, 139, 191);
+    color: black;
     border-collapse: collapse;
 }
 .my-table th,td {
@@ -37,28 +37,32 @@
     text-align: left;
     border-bottom: 1px solid #ddd;
 }
-tr:hover {
-    background-color: #eae6e6;
-}
+
 .buttonedit {
-    border: 1px solid rgb(96, 96, 0);
+    border: 1px solid rgb(255, 84, 112);
     color: black;
-    background-color: rgb(243, 243, 77);
+    background-color: pink;
     border-radius: 8px  8px   8px   8px;
     margin-bottom: 6px;
-    padding: 4px 15px;
+    padding: 8px 15px;
 }
 .buttonedit:hover {
-    background-color: rgb(96, 96, 0);
+    background-color: rgb(255, 84, 112);
 }
 .buttondelete {
-    border: 1px solid rgb(104, 38, 38);
+    border: 1px solid rgb(255, 84, 112);
     color: black;
-    background-color: rgb(255, 66, 66);
+    background-color: pink;
     border-radius: 8px  8px   8px   8px;
     margin-bottom: 6px;
-    padding: 4px 15px;
+    padding: 8px 15px;
 }
 .buttondelete:hover {
-    background-color: rgb(104, 38, 38);
+    background-color: rgb(255, 84, 112);
+}
+.my-table th,td{
+    background-color: rgb(255, 207, 215);
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid rgb(255, 84, 112); 
 }
