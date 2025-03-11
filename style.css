@@ -13,6 +13,9 @@
     margin-bottom: 6px;
     padding: 4px 15px;
 }
+.tombol-kembali:hover {
+    background-color: rgb(101, 143, 129);
+}
 .tombol-input {
     border: 1px solid blue;
     color: black;
@@ -40,18 +43,22 @@ tr:hover {
 .buttonedit {
     border: 1px solid rgb(96, 96, 0);
     color: black;
-    background-color: yellow;
+    background-color: rgb(243, 243, 77);
     border-radius: 8px  8px   8px   8px;
     margin-bottom: 6px;
     padding: 4px 15px;
 }
+.buttonedit:hover {
+    background-color: rgb(96, 96, 0);
+}
 .buttondelete {
     border: 1px solid rgb(104, 38, 38);
     color: black;
-    background-color: red;
+    background-color: rgb(255, 66, 66);
     border-radius: 8px  8px   8px   8px;
     margin-bottom: 6px;
     padding: 4px 15px;
 }
 .buttondelete:hover {
     background-color: rgb(104, 38, 38);
+}
